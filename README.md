@@ -11,7 +11,7 @@ Author:
 - Email: projet01.neuralnetwork@gmail.com
 
 ![image](./image/mlp-mixer.png)
-
+[Note] You can use your data to train this model.
 ### I. Set up environment
 
 1. Make sure you have installed pytorch and related libraries.
