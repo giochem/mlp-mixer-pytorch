@@ -1,4 +1,5 @@
 # [PYTORCH] MLP-Mixer: An all-MLP Architecture for Vision
+
 ## Introduction
 
 Implementation for paper [MLP-Mixer: An all-MLP Architecture for Vision](https://arxiv.org/pdf/2105.01601.pdf). Give me a star if you like this repo.
@@ -9,7 +10,7 @@ Author:
 
 - Email: projet01.neuralnetwork@gmail.com
 
-<img src=./image/mlp-mixer.png width=500>
+![image](./image/mlp-mixer.png)
 
 ### I. Set up environment
 
@@ -65,7 +66,9 @@ Example:
 ```bash
 python train.py --epochs 10 --num-classes 2
 ```
+
 You can train CIFAR10 dataset without put data to folders
+
 ```bash
 python train.py --dataset CIFAR10 --epochs 10 --num-classes 10 --image-size 32 --patch-size 4 --batch-size 4 --tokens-mlp-dim  1024 --channels-mlp-dim 128 --hidden-dim 256 --num-of-mlp-blocks 2
 ```
@@ -90,8 +93,7 @@ Some import params you should follow:
 
 ![image](./image/params.png)
 
-
- ### IV. Testing model with a new image
+### IV. Testing model with a new image
 
 We offer a script for testing a model using a new image via a command line:
 
@@ -106,7 +108,6 @@ Example:
 ```bash
 python predict.py --test-file-path ./data/test/cat.2000.jpg
 ```
-
 
 ### IV. Contribute
 
