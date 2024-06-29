@@ -86,6 +86,7 @@ There are some `important` arguments for the script you should consider when run
 - `channels-mlp-dim`: Channel-mixing units (MLP dimension Dc).
 - `num-of-mlp-blocks`: The number of MLP Blocks (Number of layer)
 - `log-path`: Where the model when training writed (loss, acc) and after training saved
+- `model-folder`: Where the model after training saved
 
 After training successfully, your model will be saved to `log-path` defined before
 
