@@ -6,9 +6,9 @@ Implementation for paper [MLP-Mixer: An all-MLP Architecture for Vision](https:/
 
 Author:
 
-- Github: project01-neural-network
+- Github: giochem
 
-- Email: projet01.neuralnetwork@gmail.com
+- Email: tranxuantruong203hn@gmail.com
 
 ![image](./image/mlp-mixer.png)
 [Note] You can use your data to train this model.
