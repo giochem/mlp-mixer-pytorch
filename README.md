@@ -12,11 +12,11 @@ Author:
 
 ![image](./image/mlp-mixer.png)
 [Note] You can use your data to train this model.
-### I. Set up environment
+## I. Set up environment
 
 1. Make sure you have installed pytorch and related libraries.
 
-### II. Set up your dataset.
+## II. Set up your dataset.
 
 Create 2 folders `train` and `valid` in the `data` folder (which was created already). Then `Please copy` your images with the corresponding names into these folders.
 
@@ -53,7 +53,7 @@ valid/
 ......c_image_2.jpg
 ```
 
-### III. Train your model by running this command line
+## III. Train your model by running this command line
 
 ```bash
 python train.py --epochs ${epochs} --num-classes ${num_classes}
@@ -94,7 +94,7 @@ Some import params you should follow:
 
 ![image](./image/params.png)
 
-### IV. Testing model with a new image
+## IV. Testing model with a new image
 
 We offer a script for testing a model using a new image via a command line:
 
@@ -110,6 +110,6 @@ Example:
 python predict.py --test-file-path ./data/test/cat.2000.jpg
 ```
 
-### IV. Contribute
+## IV. Contribute
 
 If you meet any issues when using this library, please let me know via the issues submission tab.
